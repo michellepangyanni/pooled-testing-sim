@@ -12,7 +12,6 @@ class Protocol:
             else:
                 mid = len(pool) // 2
                 left, right = pool[:mid], pool[mid:]
-
                 positives = set()
 
                 if sample.query(left):
